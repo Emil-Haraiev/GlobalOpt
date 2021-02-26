@@ -1,0 +1,55 @@
+.scheme{
+    padding: 51px 0 46px 0;
+    height: 454px;
+    background-color: #f3f3f3;
+    &__iconsFirst{
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon{
+        height: 58px;
+        &:nth-child(1){
+            margin-top: 8px;
+        }
+        &:nth-child(2){
+            margin-top: -4px;
+        }
+        &:nth-child(3){
+            margin-top: 8px;
+        }
+
+        img{
+            display: block;
+            margin: 0 auto;
+            
+        }
+    }
+    &__wrapper{
+        display: block;
+        margin: 0 auto;
+        width: 805px;
+    }
+    &__iconsSecond{
+        margin-top: 104px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__descr{
+        width: 253px;
+    }
+    &__text{
+        font-size: 14px;
+        text-align: center;
+    }
+    &__subtitle{
+        font-size: 16px;
+        text-align: center;
+    }
+}

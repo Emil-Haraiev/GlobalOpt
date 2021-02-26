@@ -1,0 +1,22 @@
+.ourwork{
+    padding: 51px 0 57px 0;
+    &__header{
+        margin-top: 17px;
+        
+       
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__subtitle{
+        margin-top: 27px;
+        text-align: center;
+        font-size: 18px;
+    }
+    &__text{
+        width: 360px;
+        font-size: 16px;
+    }
+}

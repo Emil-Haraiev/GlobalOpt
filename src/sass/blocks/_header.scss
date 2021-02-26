@@ -1,0 +1,50 @@
+.header{
+    padding-top: 23px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            height: 100px;
+            img{
+                width: 100%;
+            }
+        }
+        li{
+            list-style-type: none;
+            border-right: 2px dotted gray;
+            padding-right: 14px;
+		    &:nth-child(7){
+                border-right: none;
+            }
+        }
+        .menu__link{
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.71px;
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
+    &__call{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    &__phone{
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+         &:hover{
+            color: $main-color;
+        }
+    }
+}   
+
+    
+    
+      
